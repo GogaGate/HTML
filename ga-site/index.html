@@ -1,21 +1,27 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <meta name="R2" content="This is R2 webste">
+        <meta charset="TFU-8">
+        <meta name="Description" content="This is R2 Website">
         <title>
             R2 Website
         </title>
     </head>
     <body>
-       <img width="100" height="100" src="rocket.png" alt="Rocket">
+        <video src="Koksona.mp4" poster="rocket.png" loop controls>Error</video>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JLmOteqmDYc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </body>
 </html>
 
 <!--Terminology:
-    IMAGES
-    <img src="" alt=""> img tag is used to add images on the website, where alt="" is used for displaying whatever
-text you choose when the URL of the given image does not work or the image is deleted from the website. Width and
-height are used inside the tag to set dimensions for the image.
-
+    Videos & Youtube iFrames
+    <video src=""> is used when we want to add videos on our website. Between the starting and eniding tags
+you can write whatever you want and it will be only displayed in case a web browser can not open the format
+of the given video. Controls attribute is essential to be able to play the video. Otherwise, you won't be able.
+Here, as the case of the images, we can use heigh and width attributes. You can only give the tag one of them
+and it will adjust based the aspect ratio. Poster attribute makes it feasible to have whatever starting scree 
+we want to have on the video. Loop attribute starts the video again as soon as it is finished automatically.
+    In order to use youtube videos on our website, we have to find a video and below it there is a share sign,
+where we find Embeded. After clicking on it, Youtube gives us HTML code which we have to copy and past in our 
+code editor.
 -->
