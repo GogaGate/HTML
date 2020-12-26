@@ -8,30 +8,32 @@
         </title>
     </head>
     <body>
-        <ul>
-            <li> <a href="https://www.youtube.com" target="_blank">Youtube</a></li>
-            <li> <a href="https://www.google.com" target="_blank">Google</a></li>
-            <li> <a href="https://www.amazon.com" target="_blank">Amazon</a></li>
-        </ul>
-        <ol>
-            <li>Apple</li>
-                <ul>
-                    <li>Red Apple</li>
-                    <li>Green Apple</li>
-                </ul>
-            <li>Orange</li>
-            <li>Banana</li>
-        </ol>
-        
+        <table>
+            <caption>Top Companies in US</caption>
+            <tr>
+                <th>Companies:</th>
+                <th>Google</th>
+                <th>Youtube</th>
+                <th>Amazon</th>
+                <th>Apple</th>
+            </tr>
+            <tr>
+                <td>CEOs:</td>
+                <td>Sundar Pichai</td>
+                <td>Susan Wojcicki</td>
+                <td>Jeff Bezos</td>
+                <td>Tim Cook</td>
+            </tr>
+        </table>
     </body>
 </html>
 
 <!--Terminology:
-    LISTS
-    <ul> is a tag which we use when we want to have an unordered lists, which means the lists have bullets. Inside this tag
-we use <li> tag which stands for list items and helps us to make a list of anything. Inside <li> tags we can list link, or 
-just plain text.  
-    <ol> stands for ordered list and here we have numbers for every list element. Here we can use the attribute of type=""
-and give it: 1, A, a, I and i. 
-    We can use lists inside lists. That's really healpful sometimes.
+    TABLES
+    <table> tag creats tables. Inside its starting and ending tags we have to put <tr> tag which creates table raws.
+Inside <tr> starting and ending tags we have <td> in order to display table data for each column. <th> tag stands 
+for table header and it extinguishes header raw from the rest. <caption> is used to give a title to your table.
+colspan="" is an attribute of <td> tag and it is used when we want to merge raws. For example, if we gave colspan="3"
+it would take 3 columns and merge them. Everything else in this 2nd and 3rd columns would be pushed aside. 
+
 -->
